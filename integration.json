@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "d868c0cc3086525892bb3edab5edda230a3314bc4ec03da4a774325efda52495",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.ambeedata.com/apis"
+  ],
+  "id": "ambee-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Ambee MCP setup and connection checker",
+  "description": "Generate Ambee MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "ambee",
+  "appName": "Ambee",
+  "providerDocs": "https://docs.ambeedata.com/apis",
+  "providerWebsite": "https://www.getambee.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.ambeedata.com/apis/overview",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-ambee-mcp"
+}
