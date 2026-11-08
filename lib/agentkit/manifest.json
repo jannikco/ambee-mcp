@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-ambee",
+      "description": "Connect AI agents to Ambee using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-ambee/SKILL.md": "ea2f13b36b911be2164721f43282137e0fd43f21f3371a5b39988cf4a8fb8a92"
+  }
+}
